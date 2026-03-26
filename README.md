@@ -7,6 +7,7 @@
 *Ngôn ngữ Tiếng Việt*
 - Đây là bản mod tôi làm dựa trên những nhu cầu của tôi. Nếu bạn cảm thấy nó không hoàn hảo thì có thể bỏ qua.
 - Mod này không có GUI riêng, vì Trinkets chưa update version tôi cần (tôi sẽ update mod nếu Trinkets có).
+
 *https://www.curseforge.com/minecraft/mc-mods/trinkets*
 
 *https://modrinth.com/mod/trinkets*
@@ -18,6 +19,7 @@
 *English language*
 - This mod was created based on my own needs. If you feel it's not perfect, you can skip it.
 - This mod doesn't have its own GUI, as Trinkets hasn't updated to the version I need (I will update the mod if Trinkets does).
+
 *https://www.curseforge.com/minecraft/mc-mods/trinkets*
 
 *https://modrinth.com/mod/trinkets*
