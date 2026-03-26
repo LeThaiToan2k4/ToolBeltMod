@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LIL",
+    "LCL",
+    "LLL"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:chest"
+  },
+  "result": {
+    "id": "toolbeltmod:upgrade_pouch",
+    "count": 1
+  }
+}

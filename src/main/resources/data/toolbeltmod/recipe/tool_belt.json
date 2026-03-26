@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "LLL",
+    "I I"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "toolbeltmod:tool_belt",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "toolbeltmod:tool_belt"
+    },
+    "title": "Một Tool Belt Hoàn Hảo", 
+    "description": "Bạn đã sở hữu một Tool Belt có thể mang theo các món đồ, giờ đây việc lưu trữ không còn là vấn đề!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_belt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "toolbeltmod:tool_belt"
+          }
+        ]
+      }
+    }
+  }
+}

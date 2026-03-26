@@ -1,0 +1,13 @@
+{
+  "item.toolbeltmod.tool_belt": "Tool Belt",
+  "item.toolbeltmod.upgrade_pouch": "Upgrade Pouch",
+
+  "key.toolbeltmod.open": "Swap Tool",
+  "key.toolbeltmod.category": "Tool Belt",
+
+  "text.toolbeltmod.empty": "EMPTY",
+  "text.toolbeltmod.swap": "SWAP",
+  "text.toolbeltmod.tooltip": "Upgrades: %s (%s slots)",
+  
+  "itemGroup.toolbeltmod.main": "Tool Belt"
+}

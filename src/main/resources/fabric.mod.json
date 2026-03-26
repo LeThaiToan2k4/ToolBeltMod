@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "toolbeltmod",
+	"version": "${version}",
+	"name": "Tool Belt",
+	"description": "Are you frustrated because your inventory is full and you have to carry too many tools? Don't worry, this tool belt will hold those items for you and allow you to access them easily.",
+	"authors": [
+		"thaistoanf"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/toolbelt/icon_toolbelt.png",
+	"environment": "*",
+	"mixins": [
+		"toolbeltmod.mixins.json"
+	],
+	"entrypoints": {
+		"main": [
+			"com.thaistoanf.toolbelt.ToolBeltMain"
+		],
+		"client": [
+			"com.thaistoanf.toolbelt.client.ToolBeltClient"
+		]
+	},
+	
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

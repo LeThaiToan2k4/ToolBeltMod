@@ -1,0 +1,6 @@
+{
+  "model": {
+      "type": "minecraft:model",
+      "model": "toolbeltmod:item/tool_belt"
+    }
+}
