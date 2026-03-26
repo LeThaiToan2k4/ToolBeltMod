@@ -1,6 +1,6 @@
 # Tool Belt Mod (Fabric)
 
-![Logo](https://raw.githubusercontent.com/thaistoanf/ToolBeltMod/main/src/main/resources/assets/toolbelt/icon_toolbelt.png) 
+![Logo](https://raw.githubusercontent.com/LeThaiToan2k4/ToolBeltMod/refs/heads/main/src/main/resources/assets/toolbelt/icon_toolbelt.png) 
 *Một bản Mod thắt lưng công cụ siêu nhẹ dành cho Minecraft 1.21.4*
 
 *Ngôn ngữ Tiếng Việt*
