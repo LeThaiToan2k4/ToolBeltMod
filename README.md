@@ -1,9 +1,24 @@
-# Fabric Example Mod
+# Tool Belt Mod (Fabric)
 
-## Setup
+![Logo](https://raw.githubusercontent.com/thaistoanf/ToolBeltMod/main/icon.png) 
+*Một bản Mod thắt lưng công cụ siêu nhẹ dành cho Minecraft 1.21.4*
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up) that relates to the IDE that you are using.
+*Ngôn ngữ Tiếng Việt*
+- Đây là bản mod tôi làm dựa trên những nhu cầu của tôi. Nếu bạn cảm thấy nó không hoàn hảo thì có thể bỏ qua.
+- Mod này không có GUI riêng, vì Trinkets chưa update version tôi cần (tôi sẽ update mod nếu Trinkets có).
+*https://www.curseforge.com/minecraft/mc-mods/trinkets*
+*https://modrinth.com/mod/trinkets*
+- Mod tôi bổ sung 1 tool belt và 1 pouch
+- Tool belt sẽ có sẵn 2 ô chưa đồ.
+- Bạn có thể nâng cấp nó bằng việc đưa vào cái đe, mỗi lần chỉ dùng 1 pouch, nâng cấp tối đa 7 slot và 10 cấp độ kinh nghiệm/1 lần.
+- Những vật phẩm bạn có thể thêm vào toolbelt (kiếm, cúp, cuốc, xẻng, rìu, đinh ba, cung, nỏ, mace).
 
-## License
+*English language*
+- This mod was created based on my own needs. If you feel it's not perfect, you can skip it.
+- This mod doesn't have its own GUI, as Trinkets hasn't updated to the version I need (I will update the mod if Trinkets does).
+*https://www.curseforge.com/minecraft/mc-mods/trinkets*
+*https://modrinth.com/mod/trinkets*
+- The tool belt will have 2 slots for items.
+- You can upgrade it by placing it in the anvil; you can only use one pouch at a time, upgrading a maximum of 7 slots and 10 experience levels per upgrade.
+- Items you can add to the tool belt (sword, pickaxe, pickaxe, shovel, axe, trident, bow, crossbow, mace).
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
