@@ -5,7 +5,6 @@ import com.thaistoanf.toolbelt.network.SwapItemPayload;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.component.type.ContainerComponent;
 import net.minecraft.item.ItemStack;
@@ -40,11 +39,11 @@ public class ToolBeltRadialScreen extends Screen {
         int centerX = this.width / 2;
         int centerY = this.height / 2;
         int imageSize = 256;
-        context.drawTexture(RenderLayer::getGuiTextured, TEXTURE, centerX - imageSize / 2, centerY - imageSize / 2, 0f,
+        context.drawTexture(TEXTURE, centerX - imageSize / 2, centerY - imageSize / 2, 0f,
                 0f, imageSize, imageSize, imageSize, imageSize);
 
         ItemStack beltStack = this.client.player.getInventory().getStack(this.beltSlot);
-        DefaultedList<ItemStack> contents = DefaultedList.ofSize(8, ItemStack.EMPTY);
+        DefaultedList<ItemStack> contents = DefaultedList.ofSize(9, ItemStack.EMPTY);
         ContainerComponent component = beltStack.get(ModDataComponentTypes.BELT_CONTENTS);
         if (component != null) {
             component.copyTo(contents);

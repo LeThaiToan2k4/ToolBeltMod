@@ -34,8 +34,8 @@ public class AnvilScreenHandlerMixin {
             if (rightStack.getCount() == 1) {
                 int currentSlots = leftStack.getOrDefault(ModDataComponentTypes.MAX_SLOTS, 2);
                 
-                // Max 7 ô (2 gốc + 5 Pouch)
-                if (currentSlots < 7) {
+                // Max 9 ô (2 gốc + 7 Pouch)
+                if (currentSlots < 9) {
                     ItemStack outputStack = leftStack.copy();
                     outputStack.set(ModDataComponentTypes.MAX_SLOTS, currentSlots + 1);
 

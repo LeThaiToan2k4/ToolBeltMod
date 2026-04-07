@@ -56,7 +56,7 @@ public class ToolBeltMain implements ModInitializer {
                 ItemStack beltStack = player.getInventory().getStack(payload.beltSlotInInventory());
 
                 if (beltStack.isOf(ModItems.TOOL_BELT)) {
-                    DefaultedList<ItemStack> contents = DefaultedList.ofSize(8, ItemStack.EMPTY);
+                    DefaultedList<ItemStack> contents = DefaultedList.ofSize(9, ItemStack.EMPTY);
                     ContainerComponent currentComponent = beltStack.get(ModDataComponentTypes.BELT_CONTENTS);
                     if (currentComponent != null) {
                         currentComponent.copyTo(contents);

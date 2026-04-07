@@ -3,8 +3,6 @@ package com.thaistoanf.toolbelt.item;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
@@ -19,13 +17,13 @@ public class ModItems {
     // HÀM ĐĂNG KÝ CHUẨN 1.21.4 (Bơm ID vào trước khi tạo Item)
     private static Item register(String name, Function<Item.Settings, Item> factory) {
         // 1. Tạo ID (RegistryKey)
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("toolbeltmod", name));
+        Identifier id = Identifier.of("toolbeltmod", name);
         
         // 2. Gắn ID vào Settings
-        Item.Settings settings = new Item.Settings().registryKey(key);
+        Item.Settings settings = new Item.Settings();
         
         // 3. Đưa Settings đã có ID vào để tạo Item, sau đó đăng ký vào game
-        return Registry.register(Registries.ITEM, key, factory.apply(settings));
+        return Registry.register(Registries.ITEM, id, factory.apply(settings));
     }
 
     public static void initialize() {

@@ -18,9 +18,9 @@ public class ToolBeltItem extends Item {
         // Đọc số slot từ thắt lưng
         int slots = stack.getOrDefault(ModDataComponentTypes.MAX_SLOTS, 2);
         
-        // Hiện Slots: X / 7
+        // Hiện Slots: X / 9
         tooltip.add(Text.literal("Slots: ")
-                .append(Text.literal(slots + " / 7").formatted(Formatting.GREEN))
+                .append(Text.literal(slots + " / 9").formatted(Formatting.GREEN))
                 .formatted(Formatting.GRAY));
         
         super.appendTooltip(stack, context, tooltip, type);
