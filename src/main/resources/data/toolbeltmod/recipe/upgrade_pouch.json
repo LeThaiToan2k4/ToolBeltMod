@@ -6,9 +6,9 @@
     "LLL"
   ],
   "key": {
-    "L": "minecraft:leather",
-    "I": "minecraft:iron_ingot",
-    "C": "minecraft:chest"
+    "L": {"item": "minecraft:leather"},
+    "I": {"item": "minecraft:iron_ingot"},
+    "C": {"item": "minecraft:chest"}
   },
   "result": {
     "id": "toolbeltmod:upgrade_pouch",
